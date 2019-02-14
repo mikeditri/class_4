@@ -23,11 +23,10 @@ rotated_list = [[mylist[jdx][idx]
 
 #print(rotated_list[0])
 
-rotated_array = np.array(rotated_list)
 mean_list = []
 sd_list = []
 
-for x in rotated_array:
+for x in rotated_list:
     mean_list.append(np.mean(x))
     sd_list.append(np.std(x))
 
